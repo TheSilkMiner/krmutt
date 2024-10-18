@@ -1,0 +1,14 @@
+build/
+.gradle/
+
+# Not a good idea to commity IDE-specific files, even though JetBrains suggests it
+.idea/
+out/
+*.ipr
+*.iws
+*.iml
+
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+/run/
